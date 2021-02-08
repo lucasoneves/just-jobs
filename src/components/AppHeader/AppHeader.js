@@ -6,7 +6,7 @@ const AppHeader = styled.header`
   background: #2c3e50;
 
   h2 {
-    color: #9b59b6;
+    color: #fff;
   }
 `;
 

@@ -1,10 +1,12 @@
 import React from "react";
-import Header from '../../components/AppHeader/AppHeader'
+import AppHeader from '../../components/AppHeader/AppHeader'
+import Footer from '../../components/Footer/Footer'
 
 const Layout = () => {
   return (
     <div>
-      <Header></Header>
+      <AppHeader></AppHeader>
+      <Footer></Footer>
     </div>
   );
 };
