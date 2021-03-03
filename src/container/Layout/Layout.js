@@ -17,6 +17,8 @@ const Menu = styled.nav`
     a {
       color: white;
       text-decoration: none;
+      font-size: 14px;
+      text-transform: lowercase;
     }
   }
 `

@@ -5,7 +5,7 @@ const ContainerWrapper = styled.div`
   max-width: 768px;
   margin: auto;
   padding: 0 15px;
-  height: calc(100vh - 62px - 46px)
+  height: calc(100vh - 62px - 57px);
 `
 
 const container = (props) => {

@@ -3,11 +3,7 @@ import styled from "styled-components";
 
 const HeaderApp = styled.header`
   padding: 15px;
-  background: #2c3e50;
-
-  h2 {
-    color: #fff;
-  }
+  background: #34495e;
 `;
 
 const Wrapper = styled.div`
@@ -16,6 +12,11 @@ const Wrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  h2 {
+    font-size: 18px;
+    text-transform: lowercase;
+  }
 `;
 
 const Header = (props) => {
