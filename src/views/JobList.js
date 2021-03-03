@@ -1,10 +1,13 @@
 import React from 'react';
+import Container from '../container/Container';
 import CardJob from '../components/CardJob/CardJob';
 
 const jobsList = () => {
   return (
     <div>
-      <CardJob></CardJob>
+      <Container>
+        <CardJob></CardJob>
+      </Container>
     </div>
   )
 }

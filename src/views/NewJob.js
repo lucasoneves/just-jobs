@@ -1,8 +1,11 @@
 import React from 'react';
+import Container from '../container/Container';
 
 const newJob = () => {
 	return (
-		<div>New Job</div>
+		<Container>
+			<div>New Job</div>
+		</Container>
 	)
 }
 
