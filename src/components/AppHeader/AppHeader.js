@@ -1,20 +1,32 @@
 import React from "react";
 import styled from "styled-components";
 
-const AppHeader = styled.header`
+const HeaderApp = styled.header`
   padding: 15px;
-  background: #2c3e50;
+  background: #34495e;
+`;
+
+const Wrapper = styled.div`
+  max-width: 768px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 
   h2 {
-    color: #fff;
+    font-size: 18px;
+    text-transform: lowercase;
   }
 `;
 
-const Header = () => {
+const Header = (props) => {
   return (
-    <AppHeader>
-      <h2>Just Jobs</h2>
-    </AppHeader>
+    <HeaderApp>
+      <Wrapper>
+        <h2>Just Jobs</h2>
+        {props.children}
+      </Wrapper>
+    </HeaderApp>
   );
 };
 
