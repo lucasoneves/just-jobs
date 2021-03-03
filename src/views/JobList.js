@@ -1,9 +1,10 @@
-import react from 'react';
+import React from 'react';
+import CardJob from '../components/CardJob/CardJob';
 
 const jobsList = () => {
   return (
     <div>
-      JobsList
+      <CardJob></CardJob>
     </div>
   )
 }
