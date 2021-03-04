@@ -2,14 +2,14 @@ import React from 'react'
 import styled from 'styled-components'
 
 const WrapperFooter = styled.footer`
-	background: #F2F2F2;
-	padding: 15px;
+	padding: 20px;
+	border-top: 1px dotted #638188;
 `
 
 const Title = styled.h2`
 	font-size: 12px;
-	color: #777;
 	text-align: center;
+	color: #638188;
 `;
 
 const Footer = () => {
