@@ -49,9 +49,6 @@ const CardJob = (props) => {
   )
 }
 
-<<<<<<< HEAD
-export default cardJob;
-=======
 const mapStateToProps = state => {
   return {
     ctr: state.counter
@@ -59,4 +56,3 @@ const mapStateToProps = state => {
 };
 
 export default connect(mapStateToProps)(CardJob);
->>>>>>> e926a361d22e5e5599f73262a9b6ce0b0641e39e
