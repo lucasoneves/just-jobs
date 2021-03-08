@@ -39,10 +39,10 @@ const CardJob = (props) => {
     <div>
       <h2>Card Job</h2>
       { props.ctr }
-      <MainButton onClick={decreaseCounter}>
+      <MainButton onClick={props.decreaseCounter}>
         Decrease
       </MainButton>
-      <MainButton onClick={increaseCounter}>
+      <MainButton onClick={props.incrementCounter}>
         Increase
       </MainButton>
     </div>
@@ -55,4 +55,12 @@ const mapStateToProps = state => {
   };
 };
 
-export default connect(mapStateToProps)(CardJob);
+const mapDispatchToProps = dispatch => {
+  return {
+    incrementCounter: () => dispatch({type: 'INCREMENT'}),
+    decreaseCounter: () => dispatch({type: 'DECREASE'})
+  }
+}
+
+
+export default connect(mapStateToProps, mapDispatchToProps)(CardJob);
