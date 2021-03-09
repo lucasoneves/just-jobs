@@ -2,8 +2,8 @@ import React from "react";
 import styled from "styled-components";
 
 const HeaderApp = styled.header`
-  padding: 15px;
-  background: #34495e;
+  padding: 30px 15px;
+  background: rgba(0, 0, 0, 0.4);
 `;
 
 const Wrapper = styled.div`
