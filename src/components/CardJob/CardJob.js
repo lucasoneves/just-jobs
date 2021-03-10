@@ -25,17 +25,6 @@ const MainButton = styled.button`
 
 const CardJob = (props) => {
 
-  const [counter, setCounter] = useState(0)
-
-  const increaseCounter = (e) => {
-    setCounter(counter + 1)
-  }
-
-  
-  const decreaseCounter = (e) => {
-    setCounter(counter - 1)
-  }
-
   return (
     <div>
       <h2>Card Job</h2>

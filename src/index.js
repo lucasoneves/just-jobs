@@ -6,10 +6,10 @@ import reportWebVitals from "./reportWebVitals";
 
 // Provider inject the Store into react components
 import { Provider } from "react-redux";
-import { createStore } from "redux";
-import reducer from "./store/reducer";
+import { createStore, combineReducers } from "redux";
+import counterReducer from "./store/reducers/counter";
 
-const store = createStore(reducer);
+const store = createStore(counterReducer);
 
 ReactDOM.render(
   <React.StrictMode>
