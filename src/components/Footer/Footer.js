@@ -15,7 +15,7 @@ const Title = styled.h2`
 const Footer = () => {
 	return (
 		<WrapperFooter>
-			<Title>Just Jobs</Title>
+			<Title>proofer</Title>
 		</WrapperFooter>
 	)
 }

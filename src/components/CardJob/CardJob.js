@@ -1,5 +1,6 @@
 import {React, useState} from 'react';
 import styled from 'styled-components';
+import * as actionTypes from '../../store/actions';
 
 // Connect
 import { connect } from 'react-redux';
@@ -57,8 +58,8 @@ const mapStateToProps = state => {
 
 const mapDispatchToProps = dispatch => {
   return {
-    incrementCounter: () => dispatch({type: 'INCREMENT'}),
-    decreaseCounter: () => dispatch({type: 'DECREASE'})
+    incrementCounter: () => dispatch({type: actionTypes.INCREMENT}),
+    decreaseCounter: () => dispatch({type: actionTypes.DECREMENT})
   }
 }
 

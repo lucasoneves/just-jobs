@@ -23,7 +23,7 @@ const Header = (props) => {
   return (
     <HeaderApp>
       <Wrapper>
-        <h2>Just Jobs</h2>
+        <h2>proofer</h2>
         {props.children}
       </Wrapper>
     </HeaderApp>
