@@ -8,6 +8,7 @@ import reportWebVitals from "./reportWebVitals";
 import { Provider } from "react-redux";
 import { createStore, combineReducers } from "redux";
 import counterReducer from "./store/reducers/counter";
+import offersReducer from './store/reducers/offers';
 
 const store = createStore(counterReducer);
 

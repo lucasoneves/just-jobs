@@ -27,21 +27,16 @@ const CardJob = (props) => {
 
   return (
     <div>
-      <h2>Card Job</h2>
       { props.ctr }
-      <MainButton onClick={props.decreaseCounter}>
-        Decrease
-      </MainButton>
-      <MainButton onClick={props.incrementCounter}>
-        Increase
-      </MainButton>
+      { props.parag}
     </div>
   )
 }
 
 const mapStateToProps = state => {
   return {
-    ctr: state.counter
+    ctr: state.counter,
+    parag: state.offers
   };
 };
 
